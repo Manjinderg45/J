@@ -7,8 +7,8 @@ from aiogram.types import Message
 from aiogram.filters import CommandStart, Command
 import logging
 
-API_TOKEN = "7920066907:AAG8H3ISpyqkeaQcth32FySbHAM4b6j77yc"
-ADMIN_ID = 6395187566  # change this to your Telegram ID
+API_TOKEN = "7871927632:AAFOMQjA9iNTcNpADnNXLKsbJQi0IuJK-YY"
+ADMIN_ID = 6342200507  # change this to your Telegram ID
 
 bot = Bot(token=API_TOKEN, parse_mode=ParseMode.MARKDOWN)
 dp = Dispatcher()
