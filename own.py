@@ -159,7 +159,7 @@ async def attack(message: Message):
 
 async def run_attack(ip, port, duration, threads, msg):
     try:
-        subprocess.Popen(["./nuclear", ip, port, str(duration), str(900) 900])
+        subprocess.Popen(["./mn", ip, port, str(duration), str(900) 900])
 
         start = datetime.now()
         while True:
